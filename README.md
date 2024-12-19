@@ -2,7 +2,7 @@
 
 CLONE.CODE.DEPLOY
 
-This hardHat template was created to the shorten the hardhat setup and configuration time.
+This hardHat template was created to shorten the hardhat setup and configuration time.
 All you need is to clone it then follow the below steps;
 
 1. Run the following commands:
@@ -12,12 +12,12 @@ All you need is to clone it then follow the below steps;
   npm i dotenv
   ```
 
-2. Create a .env file and add WALLET_PRIVATE_KEY and ALCHEMY_RPC_SEPOLIA as environment variables, give them appropriate values, you can change the network URL to that of Infura if you are not using Alchemy
+2. Create a .env file and add WALLET_PRIVATE_KEY and ALCHEMY_RPC_SEPOLIA as environment variables, give them appropriate values, you can change the network RPC URL to that of Infura if you are not using Alchemy
 
   ![hh](https://github.com/user-attachments/assets/be7e3bf2-e223-4df6-9064-bb55a0b0479a)
 
   
-The template the the default Lock smart contract that comes with the initial Hardhat setup. 
+The template has the default Lock smart contract that comes with the initial Hardhat setup. 
 To interact with the Lock smart contract and deploy, follow the following steps;
 
 1. Compile the contract
