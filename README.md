@@ -1,13 +1,44 @@
-# Sample Hardhat Project
+# HARDHAT TEMPLATE
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+CLODE.CODE.DEPLOY
 
-Try running some of the following tasks:
+This hardHat template was created to the shorten the hardhat setup and configuration time.
+All you need is to clone it then follow the below steps;
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+1. Run the following commands:
+
+  ```shell
+  npm install
+  npm i dotenv
+  ```
+
+2. Create a .env file and add WALLET_PRIVATE_KEY and ALCHEMY_RPC_SEPOLIA as environment variables, give them appropriate values, you can change the network URL to that of Infura if you are not using Alchemy
+
+  ![hh](https://github.com/user-attachments/assets/be7e3bf2-e223-4df6-9064-bb55a0b0479a)
+
+  
+The template comes with the default Lock smart contract that comes with the initial Hardhat setup
+To interact with the Lock smart contract, follow the following steps;
+
+1. Compile the contract
+  ``` shell
+  npx hardhat compile
+  ```
+
+2. Test the contract
+  ```shell
+  npx hardhat test
+  ```
+
+3. Deploying locally
+  ```shell
+  npx hardhat run scripts/deploy.ts
+  ```
+4. Deploying to sepolia testnet
+  ```shell
+  npx hardhat run scripts/deploy.ts --network sepolia
+  ```
+
+NB:// This template comes with the sepolia testnet added to the networks in hardhat.config.ts, you can add other networks or change to you preffered network.
+
+LETS DECENTRALIZE THE INTERNET ;-)
