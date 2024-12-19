@@ -17,8 +17,8 @@ All you need is to clone it then follow the below steps;
   ![hh](https://github.com/user-attachments/assets/be7e3bf2-e223-4df6-9064-bb55a0b0479a)
 
   
-The template comes with the default Lock smart contract that comes with the initial Hardhat setup
-To interact with the Lock smart contract, follow the following steps;
+The template the the default Lock smart contract that comes with the initial Hardhat setup. 
+To interact with the Lock smart contract and deploy, follow the following steps;
 
 1. Compile the contract
   ``` shell
