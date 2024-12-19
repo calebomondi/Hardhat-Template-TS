@@ -1,6 +1,6 @@
 # HARDHAT TEMPLATE
 
-CLODE.CODE.DEPLOY
+CLONE.CODE.DEPLOY
 
 This hardHat template was created to the shorten the hardhat setup and configuration time.
 All you need is to clone it then follow the below steps;
